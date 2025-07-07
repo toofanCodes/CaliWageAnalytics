@@ -4,7 +4,7 @@ This repository contains R code and resources for an econometric analysis of the
 
 ## Contents
 - `data_analysis.R`: Main R script for data cleaning, feature engineering, and regression modeling.
-- `California State Data Set.csv`: (Not included) The raw data file required for analysis. Please obtain this from the appropriate source.
+- `California State Data Set.csv`: The raw data file required for analysis. This dataset is now included in the repository.
 
 ## Requirements
 - R (version 4.0 or higher recommended)
@@ -20,7 +20,7 @@ install.packages(c("tidyverse", "ggplot2", "languageserver"))
 ```
 
 ## Usage
-1. Place the `California State Data Set.csv` file in the project directory.
+1. The `California State Data Set.csv` file is included in this repository.
 2. Open `data_analysis.R` in RStudio or your preferred R environment.
 3. Run the script. It will:
    - Load and inspect the data
@@ -38,7 +38,7 @@ The script performs the following steps:
 - **Interpretation:** Provides summary statistics and model outputs for further interpretation.
 
 ## Notes
-- The dataset (`California State Data Set.csv`) is not included due to size and licensing. Please download it from the official PUMS/ACS source.
+- The dataset (`California State Data Set.csv`) is now included for convenience. Please ensure you have the right to use and share this data if redistributing the repository.
 - The script is well-commented for clarity and reproducibility.
 - For questions or contributions, please open an issue or submit a pull request.
 
