@@ -1,0 +1,61 @@
+# R data analysis project .gitignore
+
+# R session and history files
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# R package management
+renv/
+renv.lock
+
+# Data files (do not commit raw or output data)
+*.csv
+*.tsv
+*.sav
+*.dta
+*.rds
+*.rda
+*.xlsx
+*.xls
+*.feather
+*.parquet
+*.sas7bdat
+*.db
+*.sqlite
+*.zip
+*.tar.gz
+*.tar
+*.gz
+*.bz2
+*.h5
+*.hdf5
+
+# Output and figures
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.eps
+*.tiff
+*.bmp
+*.gif
+
+# Notebooks and markdown output
+*.nb.html
+*.nb.md
+*.Rmd
+*.html
+*.md
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*~ 
